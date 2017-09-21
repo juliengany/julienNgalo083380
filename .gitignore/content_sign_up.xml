@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/material_pink_50">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textAlignment="center"
+        android:textSize="@dimen/vingt_cinq"
+        android:padding="@dimen/dix_neuf"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_firstname"
+        android:layout_margin="@dimen/fab_margin"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_lastname"
+        android:layout_margin="@dimen/fab_margin"/>/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_password"
+        android:layout_margin="@dimen/fab_margin"/>/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_email"
+        android:layout_margin="@dimen/fab_margin"/>/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_telephone"
+        android:layout_margin="@dimen/fab_margin"/>/>
+
+    <Button
+        android:id="@+id/sg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:background="@color/material_green_200"
+        android:layout_margin="@dimen/fab_margin"/>
+</LinearLayout>
+

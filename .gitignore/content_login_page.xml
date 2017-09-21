@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="75dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/material_pink_50">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textSize="@dimen/vingt_cinq"
+        android:padding="@dimen/dix_neuf"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_username"
+            android:id="@+id/username"
+            android:layout_margin="@dimen/fab_margin"/>/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_password"
+            android:id="@+id/mypassword"
+            android:layout_margin="@dimen/fab_margin"/>/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:id="@+id/btn1"
+            android:background="@color/material_green_200"
+
+            android:layout_margin="@dimen/fab_margin"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Sign Up if don't have an account"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:id="@+id/btn2"
+            android:layout_margin="@dimen/fab_margin"
+            android:background="@color/material_green_200"/>
+
+
+
+    </LinearLayout>
