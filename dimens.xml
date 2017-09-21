@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="vingt_cinq">25dp</dimen>
+    <dimen name="dix_neuf">19dp</dimen>
+
+
+</resources>
